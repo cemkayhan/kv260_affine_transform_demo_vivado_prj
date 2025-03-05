@@ -1,0 +1,36 @@
+#!/bin/sh
+
+#vivado -journal STRAGEGY0.journal  -log STRATEGY0.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY0:  ../STRATEGY|sed "s/STRATEGY0:\s*\(.*\)/\1/g")  1>STRATEGY0.log  2>STRATEGY0.logerr
+#vivado -journal STRAGEGY1.journal  -log STRATEGY1.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY1:  ../STRATEGY|sed "s/STRATEGY1:\s*\(.*\)/\1/g")  1>STRATEGY1.log  2>STRATEGY1.logerr
+#vivado -journal STRAGEGY2.journal  -log STRATEGY2.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY2:  ../STRATEGY|sed "s/STRATEGY2:\s*\(.*\)/\1/g")  1>STRATEGY2.log  2>STRATEGY2.logerr
+#vivado -journal STRAGEGY3.journal  -log STRATEGY3.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY3:  ../STRATEGY|sed "s/STRATEGY3:\s*\(.*\)/\1/g")  1>STRATEGY3.log  2>STRATEGY3.logerr
+#vivado -journal STRAGEGY4.journal  -log STRATEGY4.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY4:  ../STRATEGY|sed "s/STRATEGY4:\s*\(.*\)/\1/g")  1>STRATEGY4.log  2>STRATEGY4.logerr
+#vivado -journal STRAGEGY5.journal  -log STRATEGY5.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY5:  ../STRATEGY|sed "s/STRATEGY5:\s*\(.*\)/\1/g")  1>STRATEGY5.log  2>STRATEGY5.logerr
+#vivado -journal STRAGEGY6.journal  -log STRATEGY6.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY6:  ../STRATEGY|sed "s/STRATEGY6:\s*\(.*\)/\1/g")  1>STRATEGY6.log  2>STRATEGY6.logerr
+#vivado -journal STRAGEGY7.journal  -log STRATEGY7.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY7:  ../STRATEGY|sed "s/STRATEGY7:\s*\(.*\)/\1/g")  1>STRATEGY7.log  2>STRATEGY7.logerr
+#vivado -journal STRAGEGY8.journal  -log STRATEGY8.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY8:  ../STRATEGY|sed "s/STRATEGY8:\s*\(.*\)/\1/g")  1>STRATEGY8.log  2>STRATEGY8.logerr
+#vivado -journal STRAGEGY9.journal  -log STRATEGY9.vivadolog  -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY9:  ../STRATEGY|sed "s/STRATEGY9:\s*\(.*\)/\1/g")  1>STRATEGY9.log  2>STRATEGY9.logerr
+#vivado -journal STRAGEGY10.journal -log STRATEGY10.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY10: ../STRATEGY|sed "s/STRATEGY10:\s*\(.*\)/\1/g") 1>STRATEGY10.log 2>STRATEGY10.logerr
+#vivado -journal STRAGEGY11.journal -log STRATEGY11.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY11: ../STRATEGY|sed "s/STRATEGY11:\s*\(.*\)/\1/g") 1>STRATEGY11.log 2>STRATEGY11.logerr
+#vivado -journal STRAGEGY12.journal -log STRATEGY12.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY12: ../STRATEGY|sed "s/STRATEGY12:\s*\(.*\)/\1/g") 1>STRATEGY12.log 2>STRATEGY12.logerr
+#vivado -journal STRAGEGY13.journal -log STRATEGY13.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY13: ../STRATEGY|sed "s/STRATEGY13:\s*\(.*\)/\1/g") 1>STRATEGY13.log 2>STRATEGY13.logerr
+#vivado -journal STRAGEGY14.journal -log STRATEGY14.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY14: ../STRATEGY|sed "s/STRATEGY14:\s*\(.*\)/\1/g") 1>STRATEGY14.log 2>STRATEGY14.logerr
+#vivado -journal STRAGEGY15.journal -log STRATEGY15.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY15: ../STRATEGY|sed "s/STRATEGY15:\s*\(.*\)/\1/g") 1>STRATEGY15.log 2>STRATEGY15.logerr
+#vivado -journal STRAGEGY16.journal -log STRATEGY16.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY16: ../STRATEGY|sed "s/STRATEGY16:\s*\(.*\)/\1/g") 1>STRATEGY16.log 2>STRATEGY16.logerr
+#vivado -journal STRAGEGY17.journal -log STRATEGY17.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY17: ../STRATEGY|sed "s/STRATEGY17:\s*\(.*\)/\1/g") 1>STRATEGY17.log 2>STRATEGY17.logerr
+#vivado -journal STRAGEGY18.journal -log STRATEGY18.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY18: ../STRATEGY|sed "s/STRATEGY18:\s*\(.*\)/\1/g") 1>STRATEGY18.log 2>STRATEGY18.logerr
+#vivado -journal STRAGEGY19.journal -log STRATEGY19.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY19: ../STRATEGY|sed "s/STRATEGY19:\s*\(.*\)/\1/g") 1>STRATEGY19.log 2>STRATEGY19.logerr
+#vivado -journal STRAGEGY20.journal -log STRATEGY20.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY20: ../STRATEGY|sed "s/STRATEGY20:\s*\(.*\)/\1/g") 1>STRATEGY20.log 2>STRATEGY20.logerr
+#vivado -journal STRAGEGY21.journal -log STRATEGY21.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY21: ../STRATEGY|sed "s/STRATEGY21:\s*\(.*\)/\1/g") 1>STRATEGY21.log 2>STRATEGY21.logerr
+#vivado -journal STRAGEGY22.journal -log STRATEGY22.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY22: ../STRATEGY|sed "s/STRATEGY22:\s*\(.*\)/\1/g") 1>STRATEGY22.log 2>STRATEGY22.logerr
+#vivado -journal STRAGEGY23.journal -log STRATEGY23.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY23: ../STRATEGY|sed "s/STRATEGY23:\s*\(.*\)/\1/g") 1>STRATEGY23.log 2>STRATEGY23.logerr
+#vivado -journal STRAGEGY24.journal -log STRATEGY24.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY24: ../STRATEGY|sed "s/STRATEGY24:\s*\(.*\)/\1/g") 1>STRATEGY24.log 2>STRATEGY24.logerr
+#vivado -journal STRAGEGY25.journal -log STRATEGY25.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY25: ../STRATEGY|sed "s/STRATEGY25:\s*\(.*\)/\1/g") 1>STRATEGY25.log 2>STRATEGY25.logerr
+#vivado -journal STRAGEGY26.journal -log STRATEGY26.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY26: ../STRATEGY|sed "s/STRATEGY26:\s*\(.*\)/\1/g") 1>STRATEGY26.log 2>STRATEGY26.logerr
+#vivado -journal STRAGEGY27.journal -log STRATEGY27.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY27: ../STRATEGY|sed "s/STRATEGY27:\s*\(.*\)/\1/g") 1>STRATEGY27.log 2>STRATEGY27.logerr
+#vivado -journal STRAGEGY28.journal -log STRATEGY28.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY28: ../STRATEGY|sed "s/STRATEGY28:\s*\(.*\)/\1/g") 1>STRATEGY28.log 2>STRATEGY28.logerr
+#vivado -journal STRAGEGY29.journal -log STRATEGY29.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY29: ../STRATEGY|sed "s/STRATEGY29:\s*\(.*\)/\1/g") 1>STRATEGY29.log 2>STRATEGY29.logerr
+#vivado -journal STRAGEGY30.journal -log STRATEGY30.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY30: ../STRATEGY|sed "s/STRATEGY30:\s*\(.*\)/\1/g") 1>STRATEGY30.log 2>STRATEGY30.logerr
+#vivado -journal STRAGEGY31.journal -log STRATEGY31.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY31: ../STRATEGY|sed "s/STRATEGY31:\s*\(.*\)/\1/g") 1>STRATEGY31.log 2>STRATEGY31.logerr
+#vivado -journal STRAGEGY32.journal -log STRATEGY32.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY32: ../STRATEGY|sed "s/STRATEGY32:\s*\(.*\)/\1/g") 1>STRATEGY32.log 2>STRATEGY32.logerr
+#vivado -journal STRAGEGY33.journal -log STRATEGY33.vivadolog -mode batch -source nonproject.tcl -tclargs $(grep ^STRATEGY33: ../STRATEGY|sed "s/STRATEGY33:\s*\(.*\)/\1/g") 1>STRATEGY33.log 2>STRATEGY33.logerr

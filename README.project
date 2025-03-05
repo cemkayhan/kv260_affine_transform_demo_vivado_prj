@@ -1,0 +1,8 @@
+1. source /opt/Vitis/Vitis/2022.2/settings64.sh
+2. cd macros
+3. CREATE_IPS=1 parallel -j $(cat ../IPJOBS) < create_ips.sh
+4. source project.sh
+5. start_gui
+6. Validate block design
+7. Generate bitstream
+8. source export.tcl

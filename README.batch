@@ -1,0 +1,5 @@
+1. source /opt/Vitis/Vitis/2022.2/settings64.sh
+2. cd macros
+3. CREATE_IPS=1 parallel -j $(cat ../IPJOBS) < create_ips.sh
+4. STRATEGY=None CREATE_PROJECT=1 CREATE_TARGETS=1 SAVE_DCP=0 COPY_XSA=0 source nonproject.sh
+5. parallel -j $(cat ../BATCHJOBS) < batch.sh
